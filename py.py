@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure API key (replace with your own)
-genai.configure(api_key='GOOGLE_API_KEY')
+genai.configure(api_key='AIzaSyAqkVyZJY6ON-LWx6YbHMgWbwOOPjYiOoo')
 
 # Model configuration
 generation_config = {
@@ -41,15 +41,18 @@ def generate_copy(prompt):
   return response.text
 
 # Streamlit app
-backgroundColor="#ececde"
-secondaryBackgroundColor="#dddde0"
-textColor="#2f2b2b"
+
 
 
 def wide_space_default():
   st.set_page_config(layout="wide")   #function to set base page to wide
 
 wide_space_default()
+
+backgroundColor="#ececde"
+secondaryBackgroundColor="#dddde0"
+textColor="#2f2b2b"
+
 
 #sidebar
 with st.sidebar:
