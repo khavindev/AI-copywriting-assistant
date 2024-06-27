@@ -66,6 +66,13 @@ with st.sidebar:
         st.write("[Powered by gemini-1.5]")
 
 #Main page TITLE and subheader
+# Add custom CSS to hide the GitHub icon
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 st.write(" ")
 st.write(" ")
