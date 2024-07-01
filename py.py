@@ -46,7 +46,6 @@ with st.sidebar:
         st.write("[Powered by gemini-1.5]")
 
 #Main page TITLE and subheader
-st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 st.write(" ")
 st.write(" ")
