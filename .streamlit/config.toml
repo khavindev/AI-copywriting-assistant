@@ -2,3 +2,5 @@
 backgroundColor="#ececde"
 secondaryBackgroundColor="#dddde0"
 textColor="#2f2b2b"
+
+GOOGLEAI_API_KEY = 'AIzaSyAqkVyZJY6ON-LWx6YbHMgWbwOOPjYiOoo'
