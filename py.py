@@ -65,6 +65,6 @@ if st.button("Get Response✨"):
 
         response = chat_session.send_message(user_input)
         st.write(response.text)
-        history.append(response)
+        
     else:
         st.write("Please enter a question.")
