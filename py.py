@@ -40,7 +40,6 @@ with st.sidebar:
         st.subheader("*Made by khavindev✨*")
         st.write("Copyright @ **TextFusion**")
         st.write("[My LinkedIn](https://www.linkedin.com/in/s-khavin73/)")
-        st.write("[Github](https://github.com/khavindev)")
         st.write("[Instagram](https://instagram.com/textfusion.ai)")
         st.write("if you have any issues ping me on linkedin or instagram")
         st.write("[Powered by gemini-1.5]")
