@@ -53,11 +53,7 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
-footer {
-	
-	visibility: hidden;
-	
-	}
+
 
 st.write(" ")
 st.write(" ")
